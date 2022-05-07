@@ -13,8 +13,6 @@ function Author(props){
         <strong><span>{props.author}</span>
         </strong></a>&#8198;&#8198;—&#8198;&#8198;<span>{props.date}</span>
       </div>
-      <br/>
-      <br/>
     </div>
   );
 }
