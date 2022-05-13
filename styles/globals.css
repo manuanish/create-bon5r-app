@@ -21,25 +21,25 @@ a {
 }
 
 .markdown-body {
-	box-sizing: border-box;
-	margin: 0 auto;
+  box-sizing: border-box;
+  margin: 0 auto;
   max-width: 700px;
-	overflow: scroll;
+  overflow: scroll;
 }
 
 ::selection {
-  background: #3B82F6;
-  color: #FFF;
-  text-decoration-color: #FFF;
+  background: #3b82f6;
+  color: #fff;
+  text-decoration-color: #fff;
 }
 ::-moz-selection {
-  background: #3B82F6;
-  color: #FFF;
-  text-decoration-color: #FFF;
+  background: #3b82f6;
+  color: #fff;
+  text-decoration-color: #fff;
 }
 
 @media (max-width: 767px) {
-	.markdown-body {
-		padding: 15px;
-	}
+  .markdown-body {
+    padding: 15px;
+  }
 }
