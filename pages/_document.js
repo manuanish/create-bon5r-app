@@ -17,7 +17,7 @@ export default function Document() {
           href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
         />
       </Head>
-      <body className="markdown-body" suppressHydrationWarning>
+      <body>
         <div>
           <Main />
           <NextScript />

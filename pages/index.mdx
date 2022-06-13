@@ -2,13 +2,14 @@ import BlogTitle from "@components/BlogTitle";
 import Post from "@components/Post";
 import PageTitle from "@components/PageTitle";
 import Footer from "@components/Footer";
+import Header from "@components/Header";
 
 <PageTitle title="Welcome to Bon5R!" />
-
+<Header>🔥 Bon5R</Header>
 <BlogTitle
   title={
     <span>
-      🔥 Welcome to <a href="https://bon5r.com">Bon5R!</a>
+      🔥 Welcome to <a href="https://bon5r.com" rel="noopener" target="_blank">Bon5R!</a>
     </span>
   }
   subTitle={
@@ -20,15 +21,16 @@ import Footer from "@components/Footer";
 
 <Post
   title="Hello World!"
-  date="3/14/15"
+  date="13/6/22"
   description="This is an example post, demonstrating the power
   of Bon5R. It displays some features that are included in this project."
   href="/hello-world"
 />
-
+<br/>
+<br/>
 <Post
   title="Bon5R Documentation"
-  date="3/14/15"
+  date="13/6/22"
   description="Vist the documentation page to learn more about Bon5R and customize your application."
   href="https://bon5r.com/docs/getting-started/installation"
 />

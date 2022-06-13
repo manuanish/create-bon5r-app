@@ -43,6 +43,7 @@ console.log("    \x1b[0mRuns the built app in production mode.");
 console.log();
 console.log("We suggest that you begin by typing:");
 console.log();
+console.log(`  \x1b[36mcd \x1b[0m${repoName}`);
 console.log(`  yarn dev`);
 console.log();
 console.log(`Happy Hacking!`);
@@ -52,5 +53,5 @@ try {
   execSync(`rm -rf ${repoName}/bin`, { stdio: "inherit" });
   execSync(`rm -rf ${repoName}/.git`, { stdio: "inherit" });
 } catch (error) {
-  console.log(error)
+  console.log(error);
 }
