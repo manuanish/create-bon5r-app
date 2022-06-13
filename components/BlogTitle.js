@@ -9,7 +9,7 @@ function BlogTitle(props) {
           {props.title}
         </div>
         <Text className="text-grey text-lg mt-5" type="secondary">
-          {props.subTitle}
+          {props.children}
         </Text>
       </div>
       <h1></h1>
