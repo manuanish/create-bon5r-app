@@ -18,10 +18,10 @@ You can start editing the page by modifying `pages/index.mdx`. The page auto-upd
 
 To learn more about Bon5R, take a look at the following resources:
 
-- [Bon5R Documentation](https://bon5r.com/docs/getting-started/installation) - learn about Next.js features and API.
+- [Bon5R Documentation](https://bon5r.com/docs/getting-started/) - learn about Bon5R features and API.
 
 You can check out [the Bon5R GitHub repository](https://github.com/manuanish/bon5r) - your feedback and contributions are welcome!
 
 ## Deploying your application
 
-Check out our [Bon5R deployment documentation](https://www.bon5r.com/docs/deployment/vercel) for more details.
+Check out our [Bon5R deployment documentation](https://www.bon5r.com/docs/deployment/) for more details.
